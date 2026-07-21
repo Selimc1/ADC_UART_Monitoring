@@ -1,8 +1,8 @@
 # ADC UART Monitoring
 
-Bu proje, ADC üzerinden potansiyometre veya analog gerilim okuyarak, elde edilen değeri UART üzerinden `printf` ile seri port ekranına gönderen bir uygulamadır. 
+This project reads analog values (e.g., from a potentiometer) using the ADC and transmits the obtained values over UART using `printf` to a serial monitor.
 
-**Donanım & Özellikler:**
-- ADC1 kullanılarak analog veri okuması
-- UART2 (115200 Baud) ile seri iletişim
-- Bloklamayan veya basit gecikmeli okuma döngüleri
+**Hardware & Features:**
+- Analog data reading using ADC1
+- Serial communication via UART2 (115200 Baud Rate)
+- Non-blocking or simple delay-based reading loops
